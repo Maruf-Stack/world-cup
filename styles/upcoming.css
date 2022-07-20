@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* header-section start  */
+
+.header-area {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.top-banner {
+    height: 85vh;
+    width: 90%;
+    border-radius: 50px;
+    display: flex;
+    background-color: black;
+}
+
+.banner-text {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 10%;
+}
+
+.banner-text h1 {
+    font-size: 70px;
+    font-weight: bolder;
+    color: wheat;
+}
+
+.banner-text p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: justify;
+    color: rgba(240, 248, 255, 0.774);
+}
+
+button.watch-live {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    color: whitesmoke;
+    background-image: linear-gradient(rgb(48, 3, 80), rgb(7, 3, 83));
+
+}
+
+
+
+i.greater-than {
+    margin-left: 10px;
+}
+
+button.watch-live:hover {
+    color: black;
+    background-image: linear-gradient(rgba(245, 245, 245, 0.829), rgba(0, 255, 255, 0.733));
+    transition: 2s;
+}
+
+.image-section {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.banner-image img {
+    height: 75vh;
+    width: 500px;
+}
+
+/* header-section end  */
+
+
+/* start main  */
+main {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.upcoming-match {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.upcoming-section {
+    width: 77%;
+    margin-left: 3%;
+}
+
+.next-match {
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    text-align: center;
+    height: 34vh;
+    padding: 7vh 15px;
+    border-radius: 6px;
+}
+
+.menu {
+    background-color: black;
+    width: 20%;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.side-bar>a {
+    text-decoration: none;
+    background-color: rgba(206, 230, 230, 0.979);
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: 80%;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+#active {
+    color: rgb(245, 239, 238);
+    background-color: red;
+}
+
+.country {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
+
+
+}
+
+.match-info {
+    margin-top: 15px;
+
+}
+
+.match-info h2 {
+    margin-bottom: 15px;
+    color: tomato;
+}
+
+
+/* end main  */
+
+/* footer area start  */
+footer {
+    margin-top: 150px;
+    height: 350px;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+.goal {
+    color: rgba(245, 245, 245, 0.87);
+    font-size: 30px;
+
+}
+
+hr {
+    margin-top: 50px;
+    width: 70%;
+    margin: 50px auto;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    margin: 0 50px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.582);
+}
+
+.social-icon a {
+    color: white;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.social-icon {
+    margin-top: 20px;
+}
+
+/* footer area end  */
