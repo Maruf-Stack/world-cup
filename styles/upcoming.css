@@ -178,6 +178,7 @@ main {
 /* end main  */
 
 /* footer area start  */
+
 footer {
     margin-top: 150px;
     height: 350px;
@@ -219,3 +220,88 @@ hr {
 }
 
 /* footer area end  */
+
+/* responsive site start  */
+/* tablet responsive start */
+@media only screen and (min-width: 768px) and (max-width:991px) {
+
+
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        height: auto;
+
+    }
+
+    .top-banner {
+        height: auto;
+        width: auto;
+    }
+
+    .banner-title {
+        width: 100%;
+        height: auto;
+    }
+
+    .banner-image {
+        width: 100%;
+        height: auto;
+        font-size: 400px;
+    }
+
+    .menu {
+        background: none;
+        border: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .side-bar {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .side-bar a {
+        font-size: 20px;
+        padding: 30px 20px;
+        width: auto;
+        margin-left: 10px;
+    }
+
+    .upcoming-section {
+        width: 100%;
+    }
+
+    .upcoming-match {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        margin: auto;
+    }
+
+    .footer {
+        height: 100%;
+        background-color: black;
+    }
+
+    .footer-menu {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        row-gap: 15px;
+
+
+
+    }
+
+
+}
+
+
+
+/* tablet responsive end  */
